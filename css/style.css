@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif; */
+.container {
+  max-width: 1172px;
+  margin: auto;
+  width: 95%;
+}
+
+.header-content {
+  display: flex;
+}
+
+.logo {
+  width: 142px;
+  height: 42px;
+}
+
+.header-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #0096dc;
+  width: 220px;
+}
