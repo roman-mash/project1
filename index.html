@@ -4,11 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ирвас - окна</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:300,400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <header class="header">
+
     <section class="header-top">
       <div class="container">
         <div class="header-info">
@@ -33,6 +38,7 @@
         </div>
       </div>
     </section>
+
     <section class="header-content">
       <div class="container">
         <div class="header-content-wrapper">
@@ -58,8 +64,8 @@
               </div>
           </div>
           </div>
-          <form action="" class="header-form">
-            <h3 class="header-form-title">Запишитесь сегодня на <span class="title-text">бесплатный замер</span></h3>
+          <form action="" class="form">
+            <h3 class="form-title">Запишитесь сегодня на <span class="title-text">бесплатный замер</span></h3>
             <input type="text" name="Имя" id="username" placeholder="Введите ваше имя">
             <input type="tel" name="Телефон" id="phonenumber" placeholder="+7 (___) ___-__-__">
             <input type="submit" value="Вызвать замерщика!">
@@ -68,11 +74,567 @@
         </div>
       </div>
     </section>
+
   </header>
 
-  <main class="main"></main>
+  <main class="main">
+    
+    <section class="material-type">
+      <div class="container">
+        <h3 class="section-title">Остекление балконов и лоджий</h3>
+        <img src="img/blue_line.png" alt="Line" class="line">
+        <div class="material-items nav nav-tabs">
+          <a class="material-item nav-link active" data-toggle="tab" href="#material1">
+            <img src="img/material1.png" alt="" class="material-pic">
+            <h4 class="material-item-title">Деревянное остекление</h4>
+          </a>
+          <a class="material-item nav-link" data-toggle="tab" href="#material2">
+            <img src="img/material2.png" alt="" class="material-pic">
+            <h4 class="material-item-title">Алюминиевое остекление</h4>
+          </a>
+          <a class="material-item nav-link" data-toggle="tab" href="#material3">
+            <img src="img/material3.png" alt="" class="material-pic">
+            <h4 class="material-item-title">Остекление пластиковыми рамами</h4>
+          </a>
+          <a class="material-item nav-link" data-toggle="tab" href="#material4">
+            <img src="img/material4.png" alt="" class="material-pic">
+            <h4 class="material-item-title">Французское остекление (панорамное)</h4>
+          </a>
+          <a class="material-item nav-link" data-toggle="tab" href="#material5">
+            <img src="img/material5.png" alt="" class="material-pic">
+            <h4 class="material-item-title">Остекление <br> с выносом</h4>
+          </a>
+        </div>
+        <div class="tab-content">
+          <div class="material-install-type tab-pane active" id="material1">
+            <div class="install-item cold">
+              <h4 class="install-title">Холодное</h4>
+              <img src="img/pic1.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина 42-58 мм</li>
+                <li class="feature-item">Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                <li class="feature-item">Теплоизоляция: 0,07 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: 20-27 дб</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">2600 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+            <div class="install-item warm">
+              <h4 class="install-title">Теплое</h4>
+              <img src="img/pic2.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина профиля: 58-78 м</li>
+                <li class="feature-item">Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                <li class="feature-item">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: до 5 класса</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">4000 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+          </div>
+          <div class="material-install-type tab-pane fade" id="material2">
+            <div class="install-item cold">
+              <h4 class="install-title">Холодное</h4>
+              <img src="img/pic1.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина 42-58 мм</li>
+                <li class="feature-item">Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                <li class="feature-item">Теплоизоляция: 0,07 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: 20-27 дб</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">5600 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+            <div class="install-item warm">
+              <h4 class="install-title">Теплое</h4>
+              <img src="img/pic2.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина профиля: 58-78 м</li>
+                <li class="feature-item">Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                <li class="feature-item">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: до 5 класса</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">10000 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+          </div>
+          <div class="material-install-type tab-pane fade" id="material3">
+            <div class="install-item cold">
+              <h4 class="install-title">Холодное</h4>
+              <img src="img/pic1.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина 42-58 мм</li>
+                <li class="feature-item">Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                <li class="feature-item">Теплоизоляция: 0,07 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: 20-27 дб</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">3600 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+            <div class="install-item warm">
+              <h4 class="install-title">Теплое</h4>
+              <img src="img/pic2.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина профиля: 58-78 м</li>
+                <li class="feature-item">Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                <li class="feature-item">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: до 5 класса</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">3000 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+          </div>
+          <div class="material-install-type tab-pane fade" id="material4">
+            <div class="install-item cold">
+              <h4 class="install-title">Холодное</h4>
+              <img src="img/pic1.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина 42-58 мм</li>
+                <li class="feature-item">Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                <li class="feature-item">Теплоизоляция: 0,07 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: 20-27 дб</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">4600 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+            <div class="install-item warm">
+              <h4 class="install-title">Теплое</h4>
+              <img src="img/pic2.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина профиля: 58-78 м</li>
+                <li class="feature-item">Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                <li class="feature-item">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: до 5 класса</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">5000 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+          </div>
+          <div class="material-install-type tab-pane fade" id="material5">
+            <div class="install-item cold">
+              <h4 class="install-title">Холодное</h4>
+              <img src="img/pic1.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина 42-58 мм</li>
+                <li class="feature-item">Остекление: полированное стекло (толщиной 4 - 5 мм)</li>
+                <li class="feature-item">Теплоизоляция: 0,07 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: 20-27 дб</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">6600 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+            <div class="install-item warm">
+              <h4 class="install-title">Теплое</h4>
+              <img src="img/pic2.png" alt="Install example" class="install-pic">
+              <ul class="feature-items">
+                <li class="feature-item">Конструктивная толщина профиля: 58-78 м</li>
+                <li class="feature-item">Остекление: однокамерные и двухкамерные стеклопакеты</li>
+                <li class="feature-item">Теплоизоляция: 0,63 - 1,05 м2 * С/Вт</li>
+                <li class="feature-item">Звукоизоляция: до 5 класса</li>
+              </ul>
+              <div class="price-info">
+                <div class="price">
+                  <p class="price-quantity">3000 руб.кв.м.</p>
+                  <p class="price-property">под ключ с установкой</p>
+                </div>
+                <button class="request-btn">Рассчитать стоимость</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-type">
+      <div class="container">
+        <h3 class="section-title">ЗАКАЖИТЕ ОТДЕЛКУ БАЛКОНА СО СКИДКОЙ 60%!</h3>
+        <img src="img/blue_line.png" alt="Line" class="line">
+        <div class="work-names nav nav-tabs">
+          <a class="work-name nav-link active" data-toggle="tab" href="#work1">ВНУТРЕННЯЯ ОТДЕЛКА</a>
+          <a class="work-name nav-link" data-toggle="tab" href="#work2">ВНЕШНЯЯ ОТДЕЛКА</a>
+          <a class="work-name nav-link" data-toggle="tab" href="#work3">ВЫНОСНОЕ ОСТЕКЛЕНИЕ</a>
+          <a class="work-name nav-link" data-toggle="tab" href="#work4">КРЫША НА БАЛКОН</a>
+        </div>
+        <div class="tab-content">
+          <div class="work-properties tab-pane active" id="work1">
+            <img src="img/example1.png" alt="Example" class="example-pic">
+            <div class="work-prices">
+              <div class="work-price">
+                <img src="img/work1.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Вагонка</h5>
+                <p class="work-price-item"><span class="price-text">600 руб. кв.м.</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work2.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Пластиковая вагонка</h5>
+                <p class="work-price-item"><span class="price-text">750 руб. кв. м</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work3.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">ПВХ-панели</h5>
+                <p class="work-price-item"><span class="price-text">800 руб.кв. м.</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work4.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Настил пола из ламината</h5>
+                <p class="work-price-item"><span class="price-text">1250 руб. Кв. м</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work5.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Настил пола из дерева</h5>
+                <p class="work-price-item"><span class="price-text">1650 руб. Кв. м</span><br> с материалом</p>
+              </div>
+            </div>
+            <form action="" class="form">
+              <h3 class="form-title">Запишитесь сегодня на <span class="title-text">бесплатный замер</span></h3>
+              <input type="text" name="Имя" id="username" placeholder="Введите ваше имя">
+              <input type="tel" name="Телефон" id="phonenumber" placeholder="+7 (___) ___-__-__">
+              <input type="submit" value="Вызвать замерщика!">
+              <p class="datasafe">Ваши данные конфиденциальны</p>
+            </form>
+          </div>
+          <div class="work-properties tab-pane fade" id="work2">
+            <img src="img/example2.png" alt="Example" class="example-pic">
+            <div class="work-prices">
+              <div class="work-price">
+                <img src="img/work1.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Вагонка</h5>
+                <p class="work-price-item"><span class="price-text">600 руб. кв.м.</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work2.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Пластиковая вагонка</h5>
+                <p class="work-price-item"><span class="price-text">750 руб. кв. м</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work3.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">ПВХ-панели</h5>
+                <p class="work-price-item"><span class="price-text">800 руб.кв. м.</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work4.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Настил пола из ламината</h5>
+                <p class="work-price-item"><span class="price-text">1250 руб. Кв. м</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work5.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Настил пола из дерева</h5>
+                <p class="work-price-item"><span class="price-text">1650 руб. Кв. м</span><br> с материалом</p>
+              </div>
+            </div>
+            <form action="" class="form">
+              <h3 class="form-title">Запишитесь сегодня на <span class="title-text">бесплатный замер</span></h3>
+              <input type="text" name="Имя" id="username" placeholder="Введите ваше имя">
+              <input type="tel" name="Телефон" id="phonenumber" placeholder="+7 (___) ___-__-__">
+              <input type="submit" value="Вызвать замерщика!">
+              <p class="datasafe">Ваши данные конфиденциальны</p>
+            </form>
+          </div>
+          <div class="work-properties tab-pane fade" id="work3">
+            <img src="img/example3.png" alt="Example" class="example-pic">
+            <div class="work-prices">
+              <div class="work-price">
+                <img src="img/work1.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Вагонка</h5>
+                <p class="work-price-item"><span class="price-text">600 руб. кв.м.</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work2.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Пластиковая вагонка</h5>
+                <p class="work-price-item"><span class="price-text">750 руб. кв. м</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work3.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">ПВХ-панели</h5>
+                <p class="work-price-item"><span class="price-text">800 руб.кв. м.</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work4.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Настил пола из ламината</h5>
+                <p class="work-price-item"><span class="price-text">1250 руб. Кв. м</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work5.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Настил пола из дерева</h5>
+                <p class="work-price-item"><span class="price-text">1650 руб. Кв. м</span><br> с материалом</p>
+              </div>
+            </div>
+            <form action="" class="form">
+              <h3 class="form-title">Запишитесь сегодня на <span class="title-text">бесплатный замер</span></h3>
+              <input type="text" name="Имя" id="username" placeholder="Введите ваше имя">
+              <input type="tel" name="Телефон" id="phonenumber" placeholder="+7 (___) ___-__-__">
+              <input type="submit" value="Вызвать замерщика!">
+              <p class="datasafe">Ваши данные конфиденциальны</p>
+            </form>
+          </div>
+          <div class="work-properties tab-pane fade" id="work4">
+            <img src="img/example4.png" alt="Example" class="example-pic">
+            <div class="work-prices">
+              <div class="work-price">
+                <img src="img/work1.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Вагонка</h5>
+                <p class="work-price-item"><span class="price-text">600 руб. кв.м.</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work2.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Пластиковая вагонка</h5>
+                <p class="work-price-item"><span class="price-text">750 руб. кв. м</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work3.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">ПВХ-панели</h5>
+                <p class="work-price-item"><span class="price-text">800 руб.кв. м.</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work4.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Настил пола из ламината</h5>
+                <p class="work-price-item"><span class="price-text">1250 руб. Кв. м</span><br> с материалом</p>
+              </div>
+              <div class="work-price">
+                <img src="img/work5.png" alt="Work" class="work-img">
+                <h5 class="work-price-title">Настил пола из дерева</h5>
+                <p class="work-price-item"><span class="price-text">1650 руб. Кв. м</span><br> с материалом</p>
+              </div>
+            </div>
+            <form action="" class="form">
+              <h3 class="form-title">Запишитесь сегодня на <span class="title-text">бесплатный замер</span></h3>
+              <input type="text" name="Имя" id="username" placeholder="Введите ваше имя">
+              <input type="tel" name="Телефон" id="phonenumber" placeholder="+7 (___) ___-__-__">
+              <input type="submit" value="Вызвать замерщика!">
+              <p class="datasafe">Ваши данные конфиденциальны</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="container">
+        <h3 class="section-title">Наши работы</h3>
+        <img src="img/blue_line.png" alt="Line" class="line">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="project-wrap">
+              <a data-fancybox="gallery" class="project-gallery" href="img/project1.png">
+                <img src="img/project1.png" alt="project-img">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="project-wrap">
+              <a data-fancybox="gallery" class="project-gallery" href="img/project2.png">
+                <img src="img/project2.png" alt="project-img">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="project-wrap">
+              <a data-fancybox="gallery" class="project-gallery" href="img/project3.png">
+                <img src="img/project3.png" alt="project-img">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="project-wrap">
+              <a data-fancybox="gallery" class="project-gallery" href="img/project4.png">
+                <img src="img/project4.png" alt="project-img">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="project-wrap">
+              <a data-fancybox="gallery" class="project-gallery" href="img/project5.png">
+                <img src="img/project5.png" alt="project-img">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="project-wrap">
+              <a data-fancybox="gallery" class="project-gallery" href="img/project6.png">
+                <img src="img/project6.png" alt="project-img">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="project-wrap">
+              <a data-fancybox="gallery" class="project-gallery" href="img/project7.png">
+                <img src="img/project7.png" alt="project-img">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="project-wrap">
+              <a data-fancybox="gallery" class="project-gallery" href="img/project8.png">
+                <img src="img/project8.png" alt="project-img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guarantees">
+      <div class="container">
+        <h3 class="section-title inverted">Мы гарантируем вам</h3>
+        <img src="img/white_line.png" alt="Line" class="line">
+      </div>
+      <div class="guarantee-items">
+        <div class="guarantee-item">
+          <img src="img/icons/guarantee1.png" alt="Guarantee image" class="guarantee-img">
+          <p class="guarantee-title">Высокое качество</p>
+        </div>
+        <div class="guarantee-item">
+          <img src="img/icons/guarantee2.png" alt="Guarantee image" class="guarantee-img">
+          <p class="guarantee-title">Выполнение работ под ключ</p>
+        </div>
+        <div class="guarantee-item">
+          <img src="img/icons/guarantee3.png" alt="Guarantee image" class="guarantee-img">
+          <p class="guarantee-title">Монтаж в короткие сроки</p>
+        </div>
+        <div class="guarantee-item">
+          <img src="img/icons/guarantee4.png" alt="Guarantee image" class="guarantee-img">
+          <p class="guarantee-title">Цены от производителя</p>
+        </div>
+        <div class="guarantee-item">
+          <img src="img/icons/guarantee5.png" alt="Guarantee image" class="guarantee-img">
+          <p class="guarantee-title">Бесплатный замер и консультацию</p>
+        </div>
+        <div class="guarantee-item">
+          <img src="img/icons/guarantee6.png" alt="Guarantee image" class="guarantee-img">
+          <p class="guarantee-title">Тепло и уют на балконе</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="payment">
+      <div class="container">
+        <h3 class="section-title">Вы можете оплатить наши услуги:</h3>
+        <div class="payment-items">
+          <div class="payment-item">
+            <img src="img/icons/payment1.png" alt="Payment image">
+            <p class="payment-title">Наличными</p>
+          </div>
+          <div class="payment-item">
+            <img src="img/icons/payment2.png" alt="Payment image">
+            <p class="payment-title">Банковской картой</p>
+          </div>
+          <div class="payment-item">
+            <img src="img/icons/payment3.png" alt="Payment image">
+            <p class="payment-title">Безналичный расчет</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promotion">
+      <div class="container">
+        <div class="promotion-wrapper">
+          <div class="promotion-description">
+            <h4 class="promotion-title">АКЦИЯ - 60%</h4>
+            <p class="promotion-offer">Успей сэкономить на остеклении!<br> Только до 23 апреля!</p>
+            <div class="counter">
+              <h5 class="counter-title">До завершения акции:</h5>
+              <script src="//megatimer.ru/get/b44deff3e7459b40bee0a6af4ed3184d.js"></script>
+            </div>
+          </div>
+          <form action="" class="form">
+            <h3 class="form-title">Запишитесь сегодня на <span class="title-text">бесплатный замер</span></h3>
+            <input type="text" name="Имя" id="username" placeholder="Введите ваше имя">
+            <input type="tel" name="Телефон" id="phonenumber" placeholder="+7 (___) ___-__-__">
+            <input type="submit" value="Вызвать замерщика!">
+            <p class="datasafe">Ваши данные конфиденциальны</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="location">
+      <div class="container">
+        <h3 class="section-title">Как нас найти</h3>
+        <img src="img/blue_line.png" alt="Line" class="line">
+        <div class="location-wrapper">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2235.261817404675!2d37.60290921559965!3d55.927498985972655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53a0ac32d875f%3A0xe1064c1e68c2b74a!2z0YPQuy4g0JLRi9GB0YLQsNCy0L7Rh9C90LDRjywgNTMsINCS0LXRiNC60LgsINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4sIDEyNzU0Mw!5e0!3m2!1sru!2sru!4v1596398216949!5m2!1sru!2sru" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+          </div>
+          <div class="location-info">
+            <dl>
+              <dt class="location-info-title">Юридический адрес:</dt>
+              <dd class="location-info-description">ООО «ИРВАС», 127411, г.Москва, Дмитровское шоссе, д.125, корпус 1</dd>
+              <dt class="location-info-title">Фактический адрес:</dt>
+              <dd class="location-info-description">ООО «ИРВАС», 141031, МО, Мытищинский р-он, п.Вешки,Выставочная,д.53</dd>
+              <dt class="location-info-title">Телефон:</dt>
+              <dd class="location-info-description"><a href="tel:+74956466171">+7 (495) 646-61-71</a> (многоканальный)</dd>
+              <dt class="location-info-title">E-mail:</dt>
+              <dd class="location-info-description"><a href="mailto:info@irvasokna.ru">info@irvasokna.ru</a></dd>
+              <dt class="location-info-title">Режим работы:</dt>
+              <dd class="location-info-description">9:00 - 18:00 без выходных</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions">
+      <div class="container">
+        <div class="question-wrapper">
+          <p class="question">Остались вопросы?</p>
+          <a href="#" class="reply-btn">Спросите у нашего специалиста!</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <footer class="footer"></footer>
-  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
 </body>
 </html>
