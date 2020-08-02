@@ -757,8 +757,8 @@ input[type=submit] {
   margin-bottom: 30px;
 }
 
-.location-info-description a,
-.location-info-description a:hover {
+.contact-item,
+.contact-item:hover {
   color: #000000;
 }
 
@@ -789,4 +789,39 @@ input[type=submit] {
 
 .reply-btn:hover {
   color: rgba(255,255,255,0.8);
+}
+
+.footer {
+  padding: 40px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-bottom: 0;
+  max-width: 180px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.telephone-footer {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.mail-footer {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #0090d5;
+  display: block;
+  text-align: right;
 }
