@@ -825,3 +825,19 @@ input[type=submit] {
   display: block;
   text-align: right;
 }
+
+.modal-dialog {
+  max-width: 370px;
+  position: relative;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transform: scale(1.5);
+}
+
+.modal-backdrop {
+  background-color: #009bff;
+}
